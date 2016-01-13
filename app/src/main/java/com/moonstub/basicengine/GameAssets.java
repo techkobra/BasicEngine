@@ -1,12 +1,10 @@
 package com.moonstub.basicengine;
 
-import com.moonstub.training.app.snakealpha.framework.GameImage;
+import com.moonstub.basicengine.framework.GameImage;
 
 public class GameAssets {
 
-    //Snake Assets
-    public static GameImage SnakeSection;
-    public static GameImage SnakeFoodApple;
+    //GameAssets
 
     public enum LoadingScreens {
         Splash,
