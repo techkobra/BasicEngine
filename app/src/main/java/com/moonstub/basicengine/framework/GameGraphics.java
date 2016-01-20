@@ -7,6 +7,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.graphics.Rect;
+import android.util.Log;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -31,7 +32,14 @@ public class GameGraphics {
         mCanvas = new Canvas(frameBuffer);
         mPaint = new Paint();
     }
+    public GameImage newSpriteImage(GameImage gameImage, int x, int y, int frameSize, int frameSizeY){
 
+        Bitmap bitmap = null;
+
+        bitmap = Bitmap.createBitmap(gameImage.getImage(),x,y,frameSize,frameSizeY);
+
+        return new GameImage(bitmap, ImageFormat.ARGB8888);
+    }
     public GameImage newImage(String fileName, ImageFormat format) {
         //Bitmap.Config config = Bitmap.Config.ARGB_8888;
         //BitmapFactory.Options options = new BitmapFactory.Options();

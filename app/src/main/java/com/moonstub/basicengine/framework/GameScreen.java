@@ -4,7 +4,7 @@ import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 
-import com.moonstub.training.app.snakealpha.GameState;
+import com.moonstub.basicengine.GameState;
 
 public abstract class GameScreen {
 

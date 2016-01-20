@@ -1,6 +1,7 @@
 package com.moonstub.basicengine;
 
 import com.moonstub.basicengine.framework.GameImage;
+import com.moonstub.basicengine.input.GameInput;
 
 public class GameAssets {
 
@@ -12,6 +13,9 @@ public class GameAssets {
         GameBoard;
         //Add more options for more screens Loading Screen Loads Assets
     }
+
+    public static GameImage BlueGem;
+    public static GameImage GreenGem;
     //Splash Screen Assets
     public static GameImage SplashImage;
     //MainMenu Assets

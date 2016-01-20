@@ -3,8 +3,8 @@ package com.moonstub.basicengine.input;
 import android.content.Context;
 import android.view.View;
 
-import com.moonstub.training.app.snakealpha.framework.GameActivity;
-import com.moonstub.training.app.snakealpha.framework.RenderView;
+import com.moonstub.basicengine.framework.GameActivity;
+import com.moonstub.basicengine.framework.RenderView;
 
 import java.util.List;
 

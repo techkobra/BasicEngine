@@ -8,8 +8,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.view.WindowManager;
 
-import com.moonstub.training.app.snakealpha.GameState;
-import com.moonstub.training.app.snakealpha.input.GameInput;
+import com.moonstub.basicengine.GameState;
+import com.moonstub.basicengine.input.GameInput;
 
 public abstract class GameActivity extends AppCompatActivity {
 
