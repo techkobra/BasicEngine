@@ -26,9 +26,9 @@ public class LoadingScreen extends GameScreen {
     @Override
     public void init() {
         GameAssets.GreenGem = getGameGraphics().newImage("green.png", GameGraphics.ImageFormat.ARGB8888);
-        GameAssets.BlueGem = getGameGraphics().newImage("red.png", GameGraphics.ImageFormat.ARGB8888);
+        GameAssets.BlueGem = getGameGraphics().newImage("white3.png", GameGraphics.ImageFormat.ARGB8888);
         //while(GameAssets.BlueGem.getWidth() != 0){}
-        blueGem = new AnimateImage(getGameActivity(),GameAssets.BlueGem,50,50,24);
+        blueGem = new AnimateImage(getGameActivity(),GameAssets.BlueGem,150,50,24);
         blueGem.LoadImageArray();
 
         greenGem = new AnimateImage(getGameActivity(),GameAssets.GreenGem,42,41,20);
